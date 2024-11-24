@@ -1,0 +1,61 @@
+<div class="nav">
+  <div
+    class="nav__item"
+    [class.active]="routeContains('flora')"
+    (click)="handleNavigate(['main', 'flora'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Флора Свердловской области</span>
+  </div>
+  @if (routeContains('flora')) {
+  <div
+    class="nav__subitem"
+    [class.active]="routeContains('taxonomic-diversity')"
+    (click)="handleNavigate(['main', 'flora', 'taxonomic-diversity'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Таксономическое разнообразие</span>
+  </div>
+  <div
+    class="nav__subitem"
+    [class.active]="routeContains('cytogenetic-diversity')"
+    (click)="handleNavigate(['main', 'flora', 'cytogenetic-diversity'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Цитогенетическое разнообразие</span>
+  </div>
+  <div
+    class="nav__subitem"
+    [class.active]="routeContains('phylogenetic-diversity')"
+    (click)="handleNavigate(['main', 'flora', 'phylogenetic-diversity'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Филогенетическое разнообразие</span>
+  </div>
+  }
+
+  <div
+    class="nav__item"
+    [class.active]="routeContains('rare')"
+    (click)="handleNavigate(['main', 'rare'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Редкие растения Свердловской области</span>
+  </div>
+  <div
+    class="nav__item"
+    [class.active]="routeContains('herbarium')"
+    (click)="handleNavigate(['main', 'herbarium'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Виртуальный гербарий</span>
+  </div>
+  <div
+    class="nav__item"
+    [class.active]="routeContains('links')"
+    (click)="handleNavigate(['main', 'links'])"
+  >
+    <img src="/images/leaf.png" alt="leaf" />
+    <span>Ссылки на источники информации</span>
+  </div>
+</div>

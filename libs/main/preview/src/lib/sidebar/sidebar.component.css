@@ -1,0 +1,26 @@
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 420px;
+  padding: 3rem 1rem;
+  font-weight: 700;
+}
+.nav__item,
+.nav__subitem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav__subitem {
+  padding-left: 2rem;
+}
+
+img {
+  visibility: hidden;
+  width: 2rem;
+}
+.active  img {
+  visibility: visible;
+}

@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-preview',
+  selector: 'lib-herbarium',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './preview.component.html',
-  styleUrl: './preview.component.css',
+  templateUrl: './herbarium.component.html',
+  styleUrl: './herbarium.component.css',
 })
-export class MainPreviewComponent {}
+export class HerbariumComponent {}
