@@ -1,6 +1,26 @@
 <div class="content-wrapper">
   <h2 class="header">Таксономическое разнообразие / Поиск таксона</h2>
   <div class="content">
-
+    <p>
+      В данном разделе вы можете найти любой вид или внутривидовой таксон с
+      помощью системы поиска. В результате выдается соответствующая
+      таксономическая информация о таксономическом статусе вида (таксона),
+      синонимах, а также дополнительные ссылки на справочную информацию о виде,
+      содержащуюся в других разделах (изображения вида, информацию о редкости
+      вида, материалах виртуального гербария, цитогенетическую информацию,
+      филогенетическую информацию, ссылки на источники).
+    </p>
+    <div class="line"></div>
+    <form class="form" [formGroup]="searchForm">
+      <h3 class="form__header">Поиск таксона</h3>
+      <input type="text" placeholder="Семейство" formControlName="family" />
+      <input type="text" placeholder="Род" formControlName="genus" />
+      <input
+        type="text"
+        placeholder="Видовой эпитет"
+        formControlName="species"
+      />
+      <button type="button" class="btn" (click)="handleSubmit()">Поиск</button>
+    </form>
   </div>
 </div>
