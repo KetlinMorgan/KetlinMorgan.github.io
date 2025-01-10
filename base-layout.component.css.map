@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["libs/shared/common/src/lib/components/base-layout/base-layout.component.css"],
-  "sourcesContent": [".page {\r\n  display: flex;\r\n  background-color: var(--gray-color);\r\n  gap: 0.5em;\r\n  min-height: 100vh;\r\n}\r\n\r\n.main-content {\r\n  background-color: #ffffff;\r\n\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 100%;\r\n  height: 100vh;\r\n}\r\n.header {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.content-container {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n"],
-  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,oBAAkB,IAAI;AACtB,OAAK;AACL,cAAY;AACd;AAEA,CAAC;AACC,oBAAkB;AAElB,WAAS;AACT,kBAAgB;AAChB,SAAO;AACP,UAAQ;AACV;AACA,CAAC;AACC,UAAQ;AACR,WAAS;AACX;AAEA,CAAC;AACC,WAAS;AACT,mBAAiB;AACjB,eAAa;AACf;",
-  "names": []
-}

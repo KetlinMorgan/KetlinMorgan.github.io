@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["libs/main/preview/src/lib/rare/rare.component.css"],
-  "sourcesContent": [":host {\n  flex-grow: 1;\n}\n.content-wrapper {\n  padding: 3rem 0 3rem 4rem;\n  display: flex;\n  flex-direction: column;\n  gap: 2rem;\n}\n\n.header {\n  font-size: 2rem;\n  font-weight: 600;\n  margin: 0;\n}\n.content {\n  font-size: 1rem;\n  font-weight: 400;\n  margin: 0;\n}\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  margin: 0;\n}\n.form__header {\n  font-weight: 700;\n  margin: 0;\n  text-align: center;\n}\n\n.form input {\n  border: none;\n  border-radius: 10px;\n  padding: 0.5rem 1rem;\n  font-size: 1.5rem;\n}\n.btn {\n  border: none;\n  border-radius: 10px;\n  background-color: #258316;\n  height: 3rem;\n  color: #fff;\n  font-size: 1.5rem;\n  cursor: pointer;\n}\n.line {\n  width: 100%;\n  border: 1px solid #607461;\n  border-top: none;\n  margin: 1.5rem 0;\n}\n"],
-  "mappings": ";AAAA;AACE,aAAW;AACb;AACA,CAAC;AACC,WAAS,KAAK,EAAE,KAAK;AACrB,WAAS;AACT,kBAAgB;AAChB,OAAK;AACP;AAEA,CAAC;AACC,aAAW;AACX,eAAa;AACb,UAAQ;AACV;AACA,CAAC;AACC,aAAW;AACX,eAAa;AACb,UAAQ;AACV;AACA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,OAAK;AACL,UAAQ;AACV;AACA,CAAC;AACC,eAAa;AACb,UAAQ;AACR,cAAY;AACd;AAEA,CAZC,KAYK;AACJ,UAAQ;AACR,iBAAe;AACf,WAAS,OAAO;AAChB,aAAW;AACb;AACA,CAAC;AACC,UAAQ;AACR,iBAAe;AACf,oBAAkB;AAClB,UAAQ;AACR,SAAO;AACP,aAAW;AACX,UAAQ;AACV;AACA,CAAC;AACC,SAAO;AACP,UAAQ,IAAI,MAAM;AAClB,cAAY;AACZ,UAAQ,OAAO;AACjB;",
-  "names": []
-}
