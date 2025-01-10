@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["libs/main/preview/src/lib/sidebar/sidebar.component.css"],
+  "sourcesContent": [".nav{\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  min-width: 300px;\n  padding: 3rem 0 3rem 1rem;\n  font-weight: 700;\n}\n.nav__item{\n  border-bottom: 2px solid #258316;\n}\n.nav__item,\n.nav__subitem {\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n  padding-bottom: 7px;\n  margin-bottom: -7px;\n}\n.nav__subitem {\n  padding-left: 2rem;\n}\n\nimg {\n  visibility: hidden;\n  width: 2rem;\n}\n.active  img {\n  visibility: visible;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,OAAK;AACL,aAAW;AACX,WAAS,KAAK,EAAE,KAAK;AACrB,eAAa;AACf;AACA,CAAC;AACC,iBAAe,IAAI,MAAM;AAC3B;AACA,CAHC;AAID,CAAC;AACC,UAAQ;AACR,WAAS;AACT,eAAa;AACb,OAAK;AACL,kBAAgB;AAChB,iBAAe;AACjB;AACA,CARC;AASC,gBAAc;AAChB;AAEA;AACE,cAAY;AACZ,SAAO;AACT;AACA,CAAC,OAAQ;AACP,cAAY;AACd;",
+  "names": []
+}

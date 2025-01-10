@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/plantural/src/app/main/main.component.css"],
+  "sourcesContent": ["\n.full-width {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n}\n\n.background {\n  background-image: url('/images/plants-bg.jpg');\n  background-size: cover;\n  min-height: 100vh;\n}\n\n.logo-container {\n  padding: 4rem;\n}\n\n.logo {\n  width: 16rem;\n}\n\n.content-wrapper {\n  background-color: rgba(234, 236, 209, 0.8);\n  margin: 0 4rem;\n  display: flex;\n  border-radius: 10px;\n}\n"],
+  "mappings": ";AACA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,SAAO;AACT;AAEA,CAAC;AACC,oBAAkB;AAClB,mBAAiB;AACjB,cAAY;AACd;AAEA,CAAC;AACC,WAAS;AACX;AAEA,CAAC;AACC,SAAO;AACT;AAEA,CAAC;AACC,oBAAkB,KAAK,GAAG,EAAE,GAAG,EAAE,GAAG,EAAE;AACtC,UAAQ,EAAE;AACV,WAAS;AACT,iBAAe;AACjB;",
+  "names": []
+}

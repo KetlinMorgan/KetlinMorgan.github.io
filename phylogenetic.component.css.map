@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["libs/main/preview/src/lib/flora/phylogenetic/phylogenetic.component.css"],
+  "sourcesContent": [":host {\r\n  flex-grow: 1;\r\n}\r\n.content-wrapper {\r\n  padding: 3rem 0 3rem 4rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 2rem;\r\n}\r\n\r\n.header {\r\n  font-size: 2rem;\r\n  font-weight: 600;\r\n  margin: 0;\r\n}\r\n.content {\r\n  font-size: 1rem;\r\n  font-weight: 400;\r\n  margin: 0;\r\n}\r\n"],
+  "mappings": ";AAAA;AACE,aAAW;AACb;AACA,CAAC;AACC,WAAS,KAAK,EAAE,KAAK;AACrB,WAAS;AACT,kBAAgB;AAChB,OAAK;AACP;AAEA,CAAC;AACC,aAAW;AACX,eAAa;AACb,UAAQ;AACV;AACA,CAAC;AACC,aAAW;AACX,eAAa;AACb,UAAQ;AACV;",
+  "names": []
+}

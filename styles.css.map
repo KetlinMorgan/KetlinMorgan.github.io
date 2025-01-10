@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/plantural/src/styles.css"],
+  "sourcesContent": ["* {\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml, body {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: Montserrat, sans-serif;\r\n}\r\n"],
+  "mappings": ";AAAA;AACE,cAAY;AACd;AAEA;AAAM;AACJ,UAAQ;AACR,WAAS;AACT,eAAa,UAAU,EAAE;AAC3B;",
+  "names": []
+}
