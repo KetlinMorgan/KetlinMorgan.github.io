@@ -1,6 +1,28 @@
 <div class="content-wrapper">
   <h2 class="header">Редкие растения Свердловской области</h2>
   <div class="content">
-
+    <p>
+      Информационная система Редкие растения Свердловской области напра влена
+      на аккумуляцию и анализ данных о редких растениях региона.
+    </p>
+    <p>
+      В системе содержатся данные о разнообразии и эколого-биологических
+      характеристиках редких и исчезающих видов растений Свердловской области,
+      отражены сведения о состоянии и динамике в популяциях видов,
+      наличии и степени выраженности угроз и лимитирующих факторов, а также мерах,
+      предпринимаемых для их охраны.
+    </p>
+    <div class="line"></div>
+    <form class="form" [formGroup]="searchForm">
+      <h3 class="form__header">Поиск таксона</h3>
+      <input type="text" placeholder="Семейство" formControlName="family" />
+      <input type="text" placeholder="Род" formControlName="genus" />
+      <input
+        type="text"
+        placeholder="Видовой эпитет"
+        formControlName="species"
+      />
+      <button type="button" class="btn" (click)="handleSubmit()">Поиск</button>
+    </form>
   </div>
 </div>
