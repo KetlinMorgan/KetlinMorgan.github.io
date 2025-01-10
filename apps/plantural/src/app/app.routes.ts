@@ -8,6 +8,7 @@ import {
   TaxonomicComponent,
   CytogeneticComponent,
   PhylogeneticComponent,
+  StorageComponent,
 } from '@plantural/main/preview';
 
 export const appRoutes: Route[] = [
@@ -43,6 +44,10 @@ export const appRoutes: Route[] = [
       {
         path: 'links',
         component: LinksComponent,
+      },
+      {
+        path: 'storage',
+        component: StorageComponent,
       },
     ],
   },

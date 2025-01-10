@@ -13,16 +13,14 @@
       предпринимаемых для их охраны.
     </p>
     <div class="line"></div>
-    <form class="form" [formGroup]="searchForm">
+    <form class="form" [formGroup]="searchForm" (ngSubmit)="handleSubmit()" novalidate>
       <h3 class="form__header">Поиск таксона</h3>
       <input type="text" placeholder="Семейство" formControlName="family" />
       <input type="text" placeholder="Род" formControlName="genus" />
-      <input
-        type="text"
-        placeholder="Видовой эпитет"
-        formControlName="species"
-      />
-      <button type="button" class="btn" (click)="handleSubmit()">Поиск</button>
+      <input type="text" placeholder="Видовой эпитет" formControlName="species" />
+      <button type="submit" class="btn">Поиск</button>
     </form>
+    <div id="search-result">
+    </div>
   </div>
 </div>

@@ -17,6 +17,23 @@ export class RareComponent {
   });
 
   handleSubmit() {
-    alert("не искали и не нашли")
+    let addr;
+    addr="/storage/"
+      +this.searchForm.value.family+"-"
+      +this.searchForm.value.genus+"-"
+      +this.searchForm.value.species+".html";
+    //TODO: clean & encode
+    fetch(addr)
+      .then(response => {
+        // When the page is loaded convert it to text
+        return response.text()
+      })
+      .then(html => {
+        // @ts-ignore
+        document.getElementById('search-result').innerHTML = html
+      })
+      .catch(error => {
+        console.error('Failed to fetch page: ', error)
+      })
   }
 }
